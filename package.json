@@ -1,0 +1,26 @@
+{
+  "name": "@username/rupees-convertor",
+  "version": "0.1.0",
+  "description": "it converts numbers to currency rupees",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashanmadhuwantha/rupees-convertor.git"
+  },
+  "keywords": [
+    "rupee"
+  ],
+  "author": "Ashan Madhuwantha <ashmadhuwantha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashanmadhuwantha/rupees-convertor/issues"
+  },
+  "homepage": "https://github.com/ashanmadhuwantha/rupees-convertor#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
