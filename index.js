@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(number) {
-    return 'RS : '+number.toFixed(2);
-};
+module.exports = function(number,currency) {
+    return (currency.toUpperCase()+': '+parseFloat(number).toFixed(2));
+}

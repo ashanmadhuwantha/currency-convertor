@@ -1,7 +1,7 @@
 {
-  "name": "@username/rupees-convertor",
+  "name": "@ashannpm/currency-convertor",
   "version": "0.1.0",
-  "description": "it converts numbers to currency rupees",
+  "description": "it converts numbers to any currency type currency",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -22,5 +22,11 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }

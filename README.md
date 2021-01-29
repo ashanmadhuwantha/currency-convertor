@@ -1,8 +1,11 @@
-# rupees-convertor
-it converts numbers to currency rupees
+# currency-convertor
+it converts numbers to any currency type
 
-input just a number 
+input just a number and currency type
+
 eg:
-    var number = rsConverter(12);
+var number = curConverter(12,rs);
+
+
 OUTPUT:
-    Rs : 12.00
+    RS: 12.00
